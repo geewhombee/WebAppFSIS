@@ -115,6 +115,8 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
+    <Content Include="ExercisePages\ExerciseHome.aspx" />
+    <Content Include="ExercisePages\SimpleQuery.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -277,6 +279,20 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ExercisePages\ExerciseHome.aspx.cs">
+      <DependentUpon>ExerciseHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExercisePages\ExerciseHome.aspx.designer.cs">
+      <DependentUpon>ExerciseHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ExercisePages\SimpleQuery.aspx.cs">
+      <DependentUpon>SimpleQuery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExercisePages\SimpleQuery.aspx.designer.cs">
+      <DependentUpon>SimpleQuery.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
