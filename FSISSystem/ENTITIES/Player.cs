@@ -21,6 +21,5 @@ namespace FSISSystem.ENTITIES
         public string AlbertaHealthCareNumber { get; set; }
         public string MedicalAlertDetails { get; set; }
 
-
     }
 }
